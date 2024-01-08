@@ -5,6 +5,7 @@ import SideBar from '@/components/SideBar'
 import Login from '@/components/Login'
 import { auth } from '@/auth'
 import { SessionProvider } from '@/components/SessionProvider'
+import ClientProvider from '@/components/ClientProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default async function RootLayout({
   const session = await auth();
 
 
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -37,7 +39,7 @@ export default async function RootLayout({
                 <SideBar />
               </div>
 
-              {/* ClientProvider - notification */}
+              <ClientProvider />
 
               <div className='bg-[#343541] flex-1'>{children}</div>
             </div>

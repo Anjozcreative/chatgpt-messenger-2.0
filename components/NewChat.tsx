@@ -12,7 +12,7 @@ function NewChat() {
   const router = useRouter()
 
   //this is the create newchat function
-  const createNewChat = () => {
+  const createNewChat = async () => {
 
       const docRef = await addDoc(
       collection(db, 'users', session?.user!.email!, 'chats'),
