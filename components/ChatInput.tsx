@@ -58,7 +58,7 @@ function ChatInput({ chatId }: Props) {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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',
+                'Authorization': `Bearer ${openaiApiKey}`,
             },
             body: JSON.stringify({
                 input,
