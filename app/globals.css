@@ -10,4 +10,15 @@
   .chatRow {
     @apply rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700 cursor-pointer text-gray-300 transition-all duration-500 ease-out
   }
+
+  .chatHead {
+    @apply font-bold text-white text-xl 
+  }
+
+  .chatBody {
+    @apply  text-white text-lg py-2
+  }
+  .menuCss {
+    @apply  text-gray-400 text-lg ml-4 font-semibold hidden md:inline-flex
+  }
 }

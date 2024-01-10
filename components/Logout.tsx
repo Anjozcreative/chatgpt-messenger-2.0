@@ -7,15 +7,22 @@ function Logout() {
 
   const { data: session } = useSession();
   return (
-    <div>
+    <div className="md:flex items-center md:mx-auto md:mb-4">
       {session && (
         <img
         onClick={() => signOut()}
         src={session.user?.image!}
         alt="User Image"
-        className="h-12 w-12 rounded-full cursor-pointer hover:opacity-50 mx-auto"
+        className="h-12 w-12 rounded-full cursor-pointer hover:opacity-50 mb-2 md:mb-0 mx-auto"
         />
       )}
+
+      {session && <p
+      onClick={() => signOut()}
+      className="hover:opacity-50 cursor-pointer text-white text-sm md:text-lg mr-2 overflow-auto ml-4">
+        {session.user?.name}
+        </p>
+      }
     </div>
   )
 }

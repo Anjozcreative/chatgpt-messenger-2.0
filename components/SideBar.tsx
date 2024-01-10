@@ -6,6 +6,8 @@ import { collection, orderBy, query } from 'firebase/firestore';
 import { db } from '@/firebase';
 import { useSession } from 'next-auth/react';
 import ChatRow from './ChatRow';
+import SideBarMenu from './SideBarMenu';
+import SideBarMenu2 from './SideBarMenu2';
 
 
 function SideBar() {
@@ -27,8 +29,9 @@ function SideBar() {
                 <div>
                     {/* NewChat */}
                     <NewChat />
-                    <div>
-                        {/* ModelSelection */}
+                    <div className='flex flex-col space-y-4 py-2 mt-44'>
+                        <SideBarMenu />
+                        <SideBarMenu2 />
                     </div>
 
                     {/* Map through the ChatRow */}
