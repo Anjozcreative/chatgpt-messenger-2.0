@@ -35,7 +35,7 @@ function NewChat() {
   return (
     <div onClick={chatPage} className="border border-green-700s chatRow">
       <PlusIcon className="h-8 w-8" />
-      <p>New Chat</p>
+      <p className="hidden md:inline-flex">New Chat</p>
     </div>
   );
 };

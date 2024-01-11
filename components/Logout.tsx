@@ -19,7 +19,7 @@ function Logout() {
 
       {session && <p
       onClick={() => signOut()}
-      className="hover:opacity-50 cursor-pointer text-white text-sm md:text-lg mr-2 overflow-auto ml-4">
+      className="hover:opacity-50 cursor-pointer text-white text-sm md:text-lg mr-2 overflow-auto ml-4 hidden md:inline-flex">
         {session.user?.name}
         </p>
       }

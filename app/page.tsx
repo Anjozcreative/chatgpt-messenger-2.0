@@ -4,7 +4,7 @@ import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/
 export default function Home() {
   return (
     <div className="flex flex-col items-center h-screen justify-center text-white px-2">
-      <h1 className="text-5xl font-bold mb-20">ChatGpt</h1>
+      <h1 className="text-5xl font-bold mb-20">ChatGPT</h1>
 
       <div className='flex space-x-2 text-center'>
         <div>
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className='hidden md:inline-block'>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Sun Icon */}
             <BoltIcon className="h-8 w-8" />
@@ -35,10 +35,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className='hidden md:inline-block'>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Sun Icon */}
-            <ExclamationTriangleIcon className="h-8 w-8" />
+            <ExclamationTriangleIcon className="h-8 w-8 " />
             <h2>Limitations</h2>
           </div>
 

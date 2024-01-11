@@ -21,4 +21,7 @@
   .menuCss {
     @apply  text-gray-400 text-lg ml-4 font-semibold hidden md:inline-flex
   }
+  .hideSeek {
+    @apply  hidden md:inline-flex
+  }
 }
