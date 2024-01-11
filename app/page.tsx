@@ -15,9 +15,9 @@ export default function Home() {
           </div>
 
           <div className="space-y-2">
-            <p className="infoText">"Describe your ideal futuristic cityscape"</p>
-            <p className="infoText">"Invent a new mythical creature and its habitat"</p>
-            <p className="infoText">"Craft a thrilling cliffhanger for a story"</p>
+            <p className="infoText">Describe your ideal futuristic cityscape</p>
+            <p className="infoText">Invent a new mythical creature and its habitat</p>
+            <p className="infoText">Craft a thrilling cliffhanger for a story</p>
           </div>
         </div>
 
@@ -29,9 +29,9 @@ export default function Home() {
           </div>
 
           <div className="space-y-2">
-            <p className="infoText">"Text generation across diverse topics"</p>
-            <p className="infoText">"Answering questions on various subjects"</p>
-            <p className="infoText">"Assisting in creative writing tasks"</p>
+            <p className="infoText">Text generation across diverse topics</p>
+            <p className="infoText">Answering questions on various subjects</p>
+            <p className="infoText">Assisting in creative writing tasks</p>
           </div>
         </div>
 
@@ -43,9 +43,9 @@ export default function Home() {
           </div>
 
           <div className="space-y-2">
-            <p className="infoText">"Contextual comprehension constraints"</p>
-            <p className="infoText">"Potential biased or inaccurate responses"</p>
-            <p className="infoText">"Limited real-time, dynamic information updates"</p>
+            <p className="infoText">Contextual comprehension constraints</p>
+            <p className="infoText">Potential biased or inaccurate responses</p>
+            <p className="infoText">Limited real-time, dynamic information updates</p>
           </div>
         </div>
 

@@ -13,7 +13,7 @@ function Message() {
                 <img src={session?.user?.image!} alt="user-image" className="h-8 w-8 object-conatin" />
                 <div className="flex flex-col">
                     <h3 className="chatHead">You</h3>
-                    <p className="chatBody text-sm md:text-lg overflow-auto">What unseen connections might emerge if every human could instantly share their deepest thoughts, reshaping our understanding of empathy and collective consciousness?</p>
+                    <p className="chatBody text-sm md:text-lg overflow-auto">What unseen connections might emerge if every human could instantly share their deepest thoughts, reshaping our understanding of empathy and collective consciousness</p>
                 </div>
 
             </div>
@@ -24,7 +24,7 @@ function Message() {
                     <div className="flex flex-col">
                         <h3 className="chatHead">ChatGPT</h3>
                         <p className="chatBody text-sm md:text-lg overflow-auto">
-                            If every individual's innermost musings were instantly accessible to all, a tapestry of empathy would unfold, knitting together diverse experiences and perspectives. Such connectivity could revolutionize our comprehension of humanity's shared joys, struggles, and profound vulnerabilities.</p>
+                            If every individuals innermost musings were instantly accessible to all, a tapestry of empathy would unfold, knitting together diverse experiences and perspectives. Such connectivity could revolutionize our comprehension of humanitys shared joys, struggles, and profound vulnerabilities.</p>
                     </div>
                 </div>
             </div>
