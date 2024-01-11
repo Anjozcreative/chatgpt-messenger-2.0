@@ -5,7 +5,6 @@ import NewChat from "./NewChat";
 import { collection, orderBy, query } from 'firebase/firestore';
 import { db } from '@/firebase';
 import { useSession } from 'next-auth/react';
-import ChatRow from './ChatRow';
 import SideBarMenu from './SideBarMenu';
 import SideBarMenu2 from './SideBarMenu2';
 
@@ -33,11 +32,6 @@ function SideBar() {
                         <SideBarMenu />
                         <SideBarMenu2 />
                     </div>
-
-                    {/* Map through the ChatRow */}
-                    {chats?.docs.map(chat => (
-                        <ChatRow key={chat.id} id={chat.id} />
-                    ))}
                 </div>
             </div>
             <Logout />
